@@ -3,6 +3,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     /* the other font to work with: font-family: 'Open Sans', sans-serif;*/
+    
 }
 
 
@@ -16,8 +17,10 @@ body{
 #banner{
     background-color:#182983;
     width: 100%;
-    height: 90px;
+    height: 125px;
 }
+
+
 .jumbo_img{
     background-image:url("../images/passport-2714675_1920.jpg");
     background-size:cover;
@@ -35,7 +38,7 @@ body{
     
   background-color: #ffffff;
   border: 1px solid black;
-  opacity: 0.7;
+  opacity: 0.8;
   padding:1%;
   margin-bottom:2%;
   margin-top:1%;
@@ -47,65 +50,116 @@ body{
 }
 
 .colaborador_del_dia{
-    margin-top: 8%;
-    margin-bottom: 8%;
+    margin-top: 7%;
+    margin-bottom: 7%;
     margin-right: 10%;
     margin-left:10%;
 }
 .colaborador_del_dia_text{
     font-family: 'Open Sans', sans-serif;
+     
+}
+.div_colaborador{
+    padding-top:5%;
+}
+.colaborador_pic{
+    width: 90%;
 }
 footer{
     background-color:#182983;
+    
+}
+.my_footer{
+    background-color:#182983;
     width: 100%;
-    height: 100px;
-    margin-bottom: 0%;
+    height: 100%;
     color: white;
     
+    
 }
-#line_bottom{
-    border:solid #ed9720;
-    margin-top: 0%;
-    margin-bottom: 0%;
-        
+.my_row{
+    border-bottom: #ed9720 solid 7px;
 }
-/* Nuestro Patreon */
 
-#logo_patreon{
-    width: 45%;
-}
-.div_logo_patreon{
-    margin-top: 5%;
-}
-.texto_patreon{
-    margin-top: 8%;
-    margin-bottom: 3%;
-    margin-right: 10%;
-    margin-left:3%;
-    font-family: 'Open Sans', sans-serif;
-}
-.boton_patreon{
-    margin-left:3%;
-    margin-bottom: 3%;
-}
-.mi_footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-#line_bottom_nuestroP{
-    border:solid #ed9720;
-    margin-top: 0%;
-}
 /* Sobre Nosotros */
 
+
+.sobre_nosotros1{
+    margin-top:5%;
+}
+.sobre_nosotros2{
+    margin-top:5%;
+}
 .redes_logo{
     
-    width: 24%;
+    width: 100%;
 }
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .instagram {
+    background: linear-gradient(90deg, rgba(241,183,26,1) 0%, rgba(230,46,45,1) 35%, rgba(197,38,141,1) 100%);
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
 
+/* conectate */
+.my_footer_conexion{
+    margin-top: 13%;
+}
 /* Index_login */
-.map{
-    margin-left: 10%;
-    margin-top: 3%;
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
